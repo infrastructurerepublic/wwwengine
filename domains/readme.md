@@ -32,6 +32,6 @@ Domains Flow
 ** Create Invoice
 ** Charge Invoice
 
-* Get Customer Domain Info
+* Get Domain Info
 
 * Edit Contact Details
