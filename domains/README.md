@@ -34,4 +34,4 @@ Domains Flow
 
 * Get Domain Info
 
-* Edit Contact Details
+* Edit Contact
