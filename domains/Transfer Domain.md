@@ -31,17 +31,6 @@ The query must meet the following requirements:
 * Name Servers for .US domains must be located in the United States.
 * All domains must have atleast 2 Name Servers.
 
-URL
-=====
-
-```html
-https://api.wwwengine.net/invoice/order/domain?queryString&hash=@hash
-```
-
-Method
-----------
-POST
-
 Create Invoice Input Parameters
 ==================================
 
@@ -68,8 +57,9 @@ Create Invoice URL
 ----------
 
 ```html
-https://api.wwwengine.net/invoice/order/domain?actingUserID=1&auth=38f9c45022de9ccd105545423b77e950af7dbc5eb31660d6bf1160431513f5ae&hash=1ca9b5502935824ea5674e3d8f69663e3dcd077fab85b3810aadcf2ae3fda5d7
+https://api.wwwengine.net/invoice/order/domain?queryString&hash=@hash
 ```
+
 Create Invoice Method
 ----------
 POST
@@ -89,6 +79,13 @@ Create Invoice Example
 -------------------------
 
 This is an example of creating invoice of domain transfer and creating order of domain transfer.
+
+URL
+--------
+
+```html
+https://api.wwwengine.net/invoice/order/domain?actingUserID=1&auth=38f9c45022de9ccd105545423b77e950af7dbc5eb31660d6bf1160431513f5ae&hash=1ca9b5502935824ea5674e3d8f69663e3dcd077fab85b3810aadcf2ae3fda5d7
+```
 
 Create Invoice JSON POST Parameters
 ---------------------
@@ -148,7 +145,7 @@ Charge Invoice URL
 ----------
 
 ```html
-https://api.wwwengine.net/invoice/charge/20515?actingUserID=1&auth=38f9c45022de9ccd105545423b77e950af7dbc5eb31660d6bf1160431513f5ae&hash=1ca9b5502935824ea5674e3d8f69663e3dcd077fab85b3810aadcf2ae3fda5d7
+http://api.wwwengine.net/invoice/charge/@invoiceID?@queryString&hash=@hash
 ```
 Charge Invoice Method
 ----------
@@ -171,6 +168,13 @@ Charge Invoice Example
 -------------------------
 
 This is an example of charging invoice of domain transfer and creating order of domain transfer.
+
+URL
+---------
+
+```html
+https://api.wwwengine.net/invoice/charge/20625?actingUserID=1&auth=38f9c45022de9ccd105545423b77e950af7dbc5eb31660d6bf1160431513f5ae&hash=1ca9b5502935824ea5674e3d8f69663e3dcd077fab85b3810aadcf2ae3fda5d7
+```
 
 Charge Invoice JSON PUT Parameters
 ---------------------
