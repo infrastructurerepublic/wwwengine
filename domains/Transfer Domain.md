@@ -66,7 +66,7 @@ POST
 Create Invoice Return Parameters
 ---------------------
 
-| Param name| Definition |
+| Param Name| Definition |
 | ------------- | ------------- |
 | resultCode | Result status code |
 | response | Actual response |
