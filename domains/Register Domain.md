@@ -39,7 +39,7 @@ Create Invoice Input Parameters
 | @domainName | Required | Domain Name entered by user with TLD | 63 |
 |	soldBy	|	Required	|	User ID of domain sold by user	|		|
 |	SoldTo	|	Required	|	User ID of domain sold to user	|		|
-|	period	|	Required	|	Number of Year domain Register	|	64	|
+|	period	|	Required	|	Number of Years the domain needs to be registered for	|	64	|
 |	TransactionType	|	Required	|	Transaction Type of process	|	64	|
 |	nameserversType	|	Required	|	Type of name servers	|	-	|
 |	Name servers	|	if(type of name server is specify-ns) Required	|	If name serverType is specify ns then this name server name should be specified	else optional |	-	|
