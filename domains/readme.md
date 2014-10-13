@@ -1,23 +1,37 @@
 Requirements
 ==============
 
-- Have an ISP account
-- Have your API Keys from Settings > API
-- Have white-listed your website IP address from Settings > API
+* Have an ISP account
+* Have your API Keys from Settings > API
+* Have white-listed your website IP address from Settings > API
 
-Domains Purchase Flow
+Domains Flow
 ======================
 
-- Check Availability
+* Check Availability
 
-- Add Contact
+* Add Contact
 
-- Register Domain
--- Create Invoice
--- Charge Invoice
+* Add Customer
 
-- Add Customer
+* Register Domain
+** Create Invoice
+** Charge Invoice
 
-- Get Customer Domain Info
+* Transfer Domain
+** Create Invoice
+** Charge Invoice
 
-- Edit Contact Details
+* Change Name Servers
+
+* Add Child Name Server
+
+* Edit Child Name Server
+
+* Renew Domain
+** Create Invoice
+** Charge Invoice
+
+* Get Customer Domain Info
+
+* Edit Contact Details
