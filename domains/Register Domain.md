@@ -166,7 +166,7 @@ Charge Invoice JSON PUT Parameters
 
 None
 
-Charge Invoice JSON POST Response
+Charge Invoice JSON PUT Response
 -----------
 
 ````json
