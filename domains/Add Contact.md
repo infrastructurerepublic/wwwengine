@@ -58,9 +58,8 @@ POST
 
 Return Parameters
 =================
-| Param name| Definition |
+| Param Name| Definition |
 | ------------- | ------------- |
-| PromoStatus | Promotion status false or true |
 | resultCode | Result status code |
 | response | Actual response |
 | id | Id of data |
