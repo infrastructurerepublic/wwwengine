@@ -97,19 +97,19 @@ Example
 ````
 
 Method
-========
+--------
 
-Get
+GET
 
 URL
-========
+--------
 
 ````html
 http://api.wwwengine.net/registrar/domain/check/zenregistry.com?actingUserID=1&auth=38f9c45022de9ccd105545423b77e950af7dbc5eb31660d6bf1160431513f5ae&hash=1ca9b5502935824ea5674e3d8f69663e3dcd077fab85b3810aadcf2ae3fda5d7
 ````
 
 JSON Response
-========
+--------
 
 ````json
 {
