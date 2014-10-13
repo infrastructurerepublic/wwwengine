@@ -12,6 +12,4 @@ Customer Calls
 
 * Get Customer Domain Info
 
-* Edit Contact Details
-
 * Edit Customer
