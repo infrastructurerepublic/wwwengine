@@ -8,5 +8,5 @@ Change Log
 
 v1.0
 
-- Domain Purchase calls added
+- Domain Management calls added
 - Customer Management calls added
