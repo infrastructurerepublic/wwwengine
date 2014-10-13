@@ -22,7 +22,7 @@ Domains Flow
 ** Create Invoice
 ** Charge Invoice
 
-* Change Name Servers
+* Edit Name Servers
 
 * Add Child Name Server
 
