@@ -50,7 +50,7 @@ Input Parameters
 |	Voice	|	Required	|	Phone number of user	|		|
 |	Number	|	Required	|	Phone number	|		|
 |	ext	|	Required	|	Extention	|		|
-|	cell	|	Required	|	User 'sCell phone	|		|
+|	cell	|	Required	|	User's Cell phone	|		|
 |	Type	|	Required	|	Type of cellphone(e.g. Window)	|		|
 |	Number	|	Required	|	Phone number	|		|
 |	ext	|	Required	|	Extention cell number	|		|
