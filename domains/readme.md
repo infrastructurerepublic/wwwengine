@@ -15,8 +15,8 @@ Domains Flow
 * Add Customer
 
 * Register Domain
-* Create Invoice
-* Charge Invoice
+** Create Invoice
+** Charge Invoice
 
 * Transfer Domain
 ** Create Invoice
