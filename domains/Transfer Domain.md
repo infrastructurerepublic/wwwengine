@@ -31,6 +31,17 @@ The query must meet the following requirements:
 * Name Servers for .US domains must be located in the United States.
 * All domains must have atleast 2 Name Servers.
 
+URL
+=====
+
+```html
+https://api.wwwengine.net/invoice/order/domain?queryString&hash=@hash
+```
+
+Method
+----------
+POST
+
 Create Invoice Input Parameters
 ==================================
 
