@@ -10,6 +10,6 @@ Customer Calls
 
 * Add Customer
 
-* Get Customer
+* Get Customer Details
 
 * Edit Customer
