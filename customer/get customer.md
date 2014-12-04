@@ -43,7 +43,7 @@ All user info
 Example
 =========
 ````
-@domainName: zenregistry.com
+@id: 145
 @userID: 1
 @publicApiKey: 38f9c45022de9ccd105545423b77e950af7dbc5eb31660d6bf1160431513f5ae
 @privateApiKey: 1ca9b5502935824ea5674e3d8f69663e3dcd077fab85b3810aadcf2ae3fda5d7
@@ -199,7 +199,6 @@ JSON Response
             "3": {
                 "id": "3",
                 "userID": "137",
-                "moduleIdentifier": "OmniPay",
                 "gatewayIdentifier": "PayPal_Express",
                 "description": "PayPal (Visa, Master, PayPal)",
                 "rank": "1",
@@ -233,170 +232,8 @@ JSON Response
                 "creditIspWithNetAmt": 0,
                 "reminderNoOfDays": "0",
                 "gatewayAccessOption": "allowalltransaction"
-            },
-            "5": {
-                "id": "5",
-                "userID": "137",
-                "moduleIdentifier": "OmniPay",
-                "gatewayIdentifier": "Stripe",
-                "description": "Visa, Master, Amex, Discover, JCB",
-                "rank": "2",
-                "info": {
-                    "apiKey": "sk_tedf_eqHdasZ8ydfdfdfdy"
-                },
-                "creditCustomerNetAmount": 0,
-                "creditIspNetAmount": 1,
-                "sendReminder": 1,
-                "creatorID": "137",
-                "updaterID": "137",
-                "active": 1,
-                "gateTypeId": "10",
-                "name": "Stripe",
-                "redirectFlag": 0,
-                "created": "2014-05-25T10:35:36.197",
-                "updated": "2014-05-25T14:19:26.120",
-                "logo": "\/user-payment-gateway-type\/logo\/10.png",
-                "currencies": [
-                    "USD"
-                ],
-                "gatewayID": "5",
-                "gatewayAccessForCustomerOption": "allowalltransaction",
-                "gatewayAccessForCustomerValue": "allcustomers",
-                "gatewayAccessForIspOption": "allowalltransaction",
-                "gatewayAccessForIspValue": "allisps",
-                "creditCustomerWithNetAmt": 0,
-                "creditIspWithNetAmt": 0,
-                "reminderNoOfDays": "0",
-                "gatewayAccessOption": "allowalltransaction"
-            },
-            "94": {
-                "id": "94",
-                "userID": "137",
-                "moduleIdentifier": "Paypal",
-                "gatewayIdentifier": "Payflow_Pro",
-                "description": "Test payflow pro",
-                "rank": "2",
-                "info": {
-                    "username": "fdfdadf",
-                    "password": "fdfdfd)fd#",
-                    "vendor": "dfordomainsllc",
-                    "partner": "PayPal",
-                    "testMode": "yes",
-                    "fixedFeeChargeCurrency": "USD",
-                    "fixedFeeChargeAmount": "125",
-                    "fluctuatingFeeChargePercentage": "20"
-                },
-                "creditCustomerNetAmount": 0,
-                "creditIspNetAmount": 1,
-                "sendReminder": 0,
-                "creatorID": "137",
-                "updaterID": "137",
-                "active": 1,
-                "gateTypeId": "27",
-                "name": "Payflow Pro",
-                "redirectFlag": 0,
-                "created": "2014-07-15T13:15:09.990",
-                "updated": "2014-09-15T13:13:27.453",
-                "logo": "\/user-payment-gateway-type\/logo\/27.png",
-                "currencies": [
-                    "USD"
-                ],
-                "gatewayID": "94",
-                "gatewayAccessForCustomerOption": "allowalltransaction",
-                "gatewayAccessForCustomerValue": "allcustomers",
-                "gatewayAccessForIspOption": "allowalltransaction",
-                "gatewayAccessForIspValue": "allisps",
-                "creditCustomerWithNetAmt": 0,
-                "creditIspWithNetAmt": 0,
-                "reminderNoOfDays": "0",
-                "gatewayAccessOption": "allowalltransaction"
-            },
-            "102": {
-                "id": "102",
-                "userID": "137",
-                "moduleIdentifier": "OmniPay",
-                "gatewayIdentifier": "Payu",
-                "description": "Test Gateway",
-                "rank": "2",
-                "info": {
-                    "key": "fdfdfd",
-                    "SALT": "fdfaereSdf",
-                    "creditCard": "0.5",
-                    "dinrCard": "1",
-                    "amexCard": "2",
-                    "debitLTCard": "4",
-                    "debitGTCard": "8",
-                    "netBanking": "16",
-                    "testMode": "yes"
-                },
-                "creditCustomerNetAmount": 1,
-                "creditIspNetAmount": 1,
-                "sendReminder": 1,
-                "creatorID": "137",
-                "updaterID": "137",
-                "active": 1,
-                "gateTypeId": "34",
-                "name": "PayU India Redirect",
-                "redirectFlag": 1,
-                "created": "2014-10-25T12:48:34.317",
-                "updated": "2014-10-25T13:00:36.807",
-                "logo": "\/user-payment-gateway-type\/logo\/34.png",
-                "currencies": [
-                    "INR"
-                ],
-                "gatewayID": "102",
-                "gatewayAccessForCustomerOption": "allowalltransaction",
-                "gatewayAccessForCustomerValue": "allcustomers",
-                "gatewayAccessForIspOption": "allowalltransaction",
-                "gatewayAccessForIspValue": "allisps",
-                "creditCustomerWithNetAmt": 0,
-                "creditIspWithNetAmt": 0,
-                "reminderNoOfDays": "0",
-                "gatewayAccessOption": "allowalltransaction"
-            },
-            "106": {
-                "id": "106",
-                "userID": "137",
-                "moduleIdentifier": "OmniPay",
-                "gatewayIdentifier": "Payumoney",
-                "description": "PATest Money",
-                "rank": "1",
-                "info": {
-                    "key": "SAAadsdSd",
-                    "SALT": "SXdfdDsdfd",
-                    "creditCard": "1",
-                    "dinrCard": "2",
-                    "amexCard": "3",
-                    "debitLTCard": "4",
-                    "debitGTCard": "5",
-                    "netBanking": "3.3",
-                    "testMode": "yes"
-                },
-                "creditCustomerNetAmount": 1,
-                "creditIspNetAmount": 1,
-                "sendReminder": 0,
-                "creatorID": "137",
-                "updaterID": "137",
-                "active": 1,
-                "gateTypeId": "35",
-                "name": "PayU Money Redirect",
-                "redirectFlag": 1,
-                "created": "2014-10-31T12:26:08.417",
-                "updated": "2014-11-03T10:33:59.863",
-                "logo": "\/user-payment-gateway-type\/logo\/35.png",
-                "currencies": [
-                    "INR"
-                ],
-                "gatewayID": "106",
-                "gatewayAccessForCustomerOption": "allowalltransaction",
-                "gatewayAccessForCustomerValue": "allcustomers",
-                "gatewayAccessForIspOption": "allowalltransaction",
-                "gatewayAccessForIspValue": "allisps",
-                "creditCustomerWithNetAmt": 0,
-                "creditIspWithNetAmt": 0,
-                "reminderNoOfDays": "0",
-                "gatewayAccessOption": "allowalltransaction"
             }
+            .....
         },
         "parentBrandName": [
             {
