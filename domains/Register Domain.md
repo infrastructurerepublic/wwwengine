@@ -90,12 +90,14 @@ https://api.wwwengine.net/invoice/order/domain?actingUserID=1&auth=38f9c45022de9
 Create Invoice JSON POST Parameters
 ---------------------
 
+When Specify Name Server is used
+---------------------
 ````json
 {
     "soldBy": "1",
     "soldTo": "2",
     "period": "1",
-    "name": "zenregistry.com",
+    "name": "zenregistries.com",
     "transactionType": "registration",
     "nameservers": [
         "ns1.com",
@@ -110,6 +112,47 @@ Create Invoice JSON POST Parameters
     },
     "head": {
         "userIpAddress": "10.103.10.25"
+    }
+}
+````
+
+When Domain Or Coming Soon Parking is used Or Of the user needs to use Default Nameserver
+---------------------
+````json
+{
+    "soldBy": "1",
+    "soldTo": "2",
+    "period": "1",
+    "name": "test.com",
+    "transactionType": "registration",
+    "nameservers": [],
+    "nameserversType": "coming-soon-ns",//{This can be 'domain-parking-ns'/'coming-soon-ns'/'default-ns'}
+    "registrant": "881f308ae659ac5b",
+    "contacts": {
+        "admin": [
+            "9de6976ee91bef86"
+        ],
+        "billing": [
+            "da93aadac2a22c74"
+        ],
+        "tech": [
+            "167446172b1fc623"
+        ]
+    }
+}
+````
+
+When Magic Folder Is used
+---------------------
+````json
+{
+    "soldBy": "1",
+    "soldTo": "2",
+    "period": "1",
+    "name": "test.com",
+    "transactionType": "registration",
+    "metadata": {
+        "magicFolderID": "47569"
     }
 }
 ````
