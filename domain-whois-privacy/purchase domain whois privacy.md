@@ -211,7 +211,7 @@ Charge Invoice JSON PUT Response
     "message": "Changes saved",
     "response": {
         "id": 45891,
-        "name": "zenregistery.com",
+        "name": "abc.com",
         "crDate": "2014-10-08T14:15:51.0409Z",
         "exDate": "2015-10-08T14:15:51.0409Z"
     }
