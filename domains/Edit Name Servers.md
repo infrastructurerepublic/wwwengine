@@ -21,6 +21,7 @@ The query must meet the following requirements:
 * The actingUserID, authKey and hash must be valid.
 * User should select the name server type as specify or default name servers.
 * If specify name server is selected, user can update nameservers, add more name servers or can remove name servers from existing.
+** To update nameservers, add the new nameservers and then remove the old nameservers.
 
 Input Parameters
 =================
