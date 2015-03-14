@@ -41,6 +41,7 @@ Create Invoice Input Parameters
 |	SoldTo	|	Required	|	User ID of domain sold to user	|		|
 |	period	|	Required	|	Number of Year domain Register	|	64	|
 |	TransactionType	|	Required	|	Transaction Type of process	|	64	|
+|	authcode	|	Required	|	Auth code of domain	|	64	|
 |	nameserversType	|	Required	|	Type of name servers	|	-	|
 |	Name servers	|	if(type of name server is specify-ns) Required	|	If name serverType is specify ns then this name server name should be specified	else optional |	-	|
 |	registrant	|	Required	|	Registrant id of domain	|		|
@@ -97,6 +98,7 @@ Create Invoice JSON POST Parameters
     "period": "1",
     "name": "zenregistry.com",
     "transactionType": "transfer",
+    "authcode" : "AHDJJJH",
     "nameservers": [
         "ns1.com",
         "ns2.com"
