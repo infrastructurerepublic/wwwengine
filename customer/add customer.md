@@ -24,36 +24,35 @@ Input Parameters
 | Param Name | Obligation | Definition | Max Size |
 | ------------- | ------------- | ------------- | ------------- |
 |	type	|	Required	|	Type of user (Customer)	|		|
-|	password	|	Required	|	Password of user	|	1/8/2020	|
+|	password	|	Required	|	Password of user	|		|
 |	email	|	Required	|	Email address of user	|	50	|
-|	parentID	|	Required	|	ISP id under which user going to be register	|	-	|
+|	parentID	|	Required	|	ISP id under under whom you want to add a Customer	|	-	|
 |	autoSignup	|	Required	|	AutoSign up otion if enabled or not	|	65	|
 |	buyingCurrency	|	Required	|	BuyingCurrency of user	|	50	|
-|	allow	|	Required	|	Address of user	|		|
-|	allowIPV	|	Required	|	Street of user	|		|
-|	SocialPages	|	Optional	|	Soical pages of users	|		|
-|	Soicalinfo	|	Optional	|	SocialUrls of usrs (eg. Facebook,google, twitter)	|		|
+|	allowIPV	|	Optional	|	IPv4 Address of user	|		|
+|	SocialPages	|	Optional	|	Social pages of users	|		|
+|	Soicalinfo	|	Optional	|	SocialUrls of usrs (eg. Facebook, google, twitter)	|		|
 |	userInfo	|	Required	|	User's personal info	|		|
-|	Date of birth	|	Required	|	Date of birth dd-mm-YY	|		|
+|	Date of birth	|	Required	|	Date of Birth in YYYY-MM-DD	|		|
 |	contactInfo	|	Required	|	User's contact Info	|		|
-|	PostalInfo	|	Required	|	User's postal Info	|		|
+|	PostalInfo	|	Required	|	User's postal info	|		|
 |	title	|	Required	|	Title of user (Mr./Mrs./Other)	|		|
 |	organization	|	Required	|	Organization of user	|		|
-|	firstName	|	Required	|	FirstName of user	|		|
-|	LastName	|	Required	|	Last name of user	|		|
+|	firstName	|	Required	|	First Name of user	|		|
+|	LastName	|	Required	|	Last Name of user	|		|
 |	address	|	Required	|	Address of user	|		|
 |	Street	|	Required	|	Streets1,Streets2,Streets3	|		|
 |	city	|	Required	|	City of user	|		|
 |	State	|	Required	|	State of user	|		|
-|	countryCode	|	Required	|	Country Code of user	|		|
-|	postalCode	|	Required	|	Postalof user	|		|
+|	countryCode	|	Required	|	Country code of user	|		|
+|	postalCode	|	Required	|	Postal code of user	|		|
 |	Voice	|	Required	|	Phone number of user	|		|
 |	Number	|	Required	|	Phone number	|		|
 |	ext	|	Required	|	Extention	|		|
 |	cell	|	Required	|	User's Cell phone	|		|
 |	Type	|	Required	|	Type of cellphone(e.g. Window)	|		|
 |	Number	|	Required	|	Phone number	|		|
-|	ext	|	Required	|	Extention cell number	|		|
+|	ext	|	Optional	|	Extention cell number	|		|
 |	countryCode	|	Required	|	Country Code of user's cell number	|		|
 |	callInPin	|	Required	|	User's call in pin	|		|
 |	Fax	|	Required	|	Fax number of user	|		|
