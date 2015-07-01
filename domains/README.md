@@ -37,3 +37,5 @@ Domains Flow
 * Edit Contact
 
 * Premium Domains Check Availability
+
+* Domain Name Suggestions
