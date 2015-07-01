@@ -35,3 +35,5 @@ Domains Flow
 * Get Domain Info
 
 * Edit Contact
+
+* Premium Domains Check Availability
