@@ -50,7 +50,7 @@ Return Parameters
 
 |	Param name|	Definition |
 |	------------- | ------------- |
-|	price	|	Your Price in Accounting Currency	|
+|	price	|	Your Price in US Dollar	|
 |	value	|	Available Premium Domain name	|
 
 Example
