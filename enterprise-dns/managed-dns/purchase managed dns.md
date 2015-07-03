@@ -29,12 +29,6 @@ Constraints
 );
 ````
 
-Domain names must meet the following requirements:
-------------
-* The Username and Password must be valid.
-* The domain name(s) to which privacy is to be purchase must be valid. (See requirements under the Check Availablity.)
-* WWWengine must be able to sell the name you are trying to register.
-
 Create Invoice Input Parameters
 ==================================
 
