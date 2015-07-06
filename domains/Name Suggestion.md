@@ -14,7 +14,7 @@ Use this to suggestions for domain names.
 Availability
 -------------
 
-The NameSuggestion command is available to every ISP.
+The namesuggestion command is available to every ISP.
 
 Constraints
 =============
@@ -47,7 +47,7 @@ URL
 ===========
 
 ```html
-https://api.wwwengine.net/registrar/domain/NameSuggestion/@domainname?tlds=@tlds&pageSize=@pageSize&isSplittable=True&spinSynonyms=@spinSynonyms&addDashes=@addDashes&addRelated=@addRelated&removeKeys=@removeKeys&pageIndex=@pageIndex&format=@format&ispid=@ispid&actingUserID=@actingUserID&auth=@authKey&hash=@hash
+https://api.wwwengine.net/registrar/domain/namesuggestion/@domainname?tlds=@tlds&pageSize=@pageSize&isSplittable=True&spinSynonyms=@spinSynonyms&addDashes=@addDashes&addRelated=@addRelated&removeKeys=@removeKeys&pageIndex=@pageIndex&format=@format&ispid=@ispid&actingUserID=@actingUserID&auth=@authKey&hash=@hash
 ```
 
 Method
@@ -91,7 +91,7 @@ URL
 --------
 
 ````html
-https://api.wwwengine.net/registrar/domain/NameSuggestion/SearchedDomain.com?tlds=com,net,org,biz,us,co,me,mobi,info,asia&pageSize=100&isSplittable=True&spinSynonyms=True&addDashes=True&addRelated=True&removeKeys=True&pageIndex=0&format=json&ispid=1&actingUserID=1&auth=38f9c45022de9ccd105545423b77e950af7dbc5eb31660d6bf1160431513f5ae&hash=1ca9b5502935824ea5674e3d8f69663e3dcd077fab85b3810aadcf2ae3fda5d7
+https://api.wwwengine.net/registrar/domain/namesuggestion/SearchedDomain.com?tlds=com,net,org,biz,us,co,me,mobi,info,asia&pageSize=100&isSplittable=True&spinSynonyms=True&addDashes=True&addRelated=True&removeKeys=True&pageIndex=0&format=json&ispid=1&actingUserID=1&auth=38f9c45022de9ccd105545423b77e950af7dbc5eb31660d6bf1160431513f5ae&hash=1ca9b5502935824ea5674e3d8f69663e3dcd077fab85b3810aadcf2ae3fda5d7
 ````
 
 JSON Response
