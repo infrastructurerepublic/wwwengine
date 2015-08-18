@@ -83,7 +83,7 @@ JSON PUT Parameters
     ],
     "removeNameservers": [
         {
-            "ns7.abc.in",
+            "ns7.abc.in"
         }
     ],
     "nameservertype": "specify"
