@@ -8,9 +8,9 @@ Purchase a domain whois privacy for domain.
 
 Usage
 ------------
-*The Purchase command enables direct real-time purchases.
-*The Purchase command is typically used for a single-name purchase and returns an immediate success/failure response.
-*Purchase Domain whois privacy is divided into: ** Create Invoice ** Charge Invoice
+* The Purchase command enables direct real-time purchases.
+* The Purchase command is typically used for a single-name purchase and returns an immediate success/failure response.
+* Purchase Domain whois privacy is divided into: ** Create Invoice ** Charge Invoice
 
 Availability
 -------------
@@ -74,7 +74,7 @@ Example
 @period: 1
 @name: abc.com
 @transactionType: buy
-@productIdentifier : coming-soon
+@productIdentifier : pro
 @userID: 1
 @publicApiKey: 38f9c45022de9ccd105545423b77e950af7dbc5eb31660d6bf1160431513f5ae
 @privateApiKey: 1ca9b5502935824ea5674e3d8f69663e3dcd077fab85b3810aadcf2ae3fda5d7
@@ -102,7 +102,7 @@ Create Invoice JSON POST Parameters
     "period": 1,
     "name": "abc.com",
     "transactionType": "buy",
-    "productIdentifier": "coming-soon",
+    "productIdentifier": "pro",
     "authcode": "",
     "type": "domain-parking",
     "head": {
