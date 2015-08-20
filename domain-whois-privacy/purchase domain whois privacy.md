@@ -33,7 +33,7 @@ Create Invoice Input Parameters
 |	soldBy	|	Required	|	User ID of domain sold by user	|		|
 |	SoldTo	|	Required	|	User ID of domain sold to user	|		|
 |	period	|	Required	|	Number of Years the domain needs to be registered for	|	64	|
-|	name	|	Required	|	domain name for which privacy applyin |	-	|
+|	name	|	Required	|	Domain name for which privacy is being applied |	-	|
 |	productIdentifier	|	Required	|	product type pro or lite	|	-	|
 |	transactionType	|	Required	|	Transaction Type of process	|	64	|
 |	@userID	|	Required	|	Acting User ID	|		|
