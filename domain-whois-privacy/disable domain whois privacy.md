@@ -12,7 +12,7 @@ Use this command to disable domain whois privacy for the domain.
 
 Availability
 -------------
-The get command is available to every ISP.
+The delete command is available to every ISP.
 
 Constraints
 =============
@@ -31,7 +31,7 @@ Input Parameters
 URL
 ===========
 ```html
-https://api.wwwengine.net/registrar/domain-privacy/@domainName?@queryString&hash=@hash
+https://api.wwwengine.net/registrar/domain-privacy/domain/@domainName?@queryString&hash=@hash
 ```
 Method
 ========
@@ -71,7 +71,7 @@ URL
 ----------
 
 ````html
-https://api.wwwengine.net/registrar/domain-privacy/zeneregistries.com?actingUserID=1&auth=38f9c45022de9ccd105545423b77e950af7dbc5eb31660d6bf1160431513f5ae&hash=1ca9b5502935824ea5674e3d8f69663e3dcd077fab85b3810aadcf2ae3fda5d7
+https://api.wwwengine.net/registrar/domain-privacy/domain/zeneregistries.com?actingUserID=1&auth=38f9c45022de9ccd105545423b77e950af7dbc5eb31660d6bf1160431513f5ae&hash=1ca9b5502935824ea5674e3d8f69663e3dcd077fab85b3810aadcf2ae3fda5d7
 ````
 JSON Response
 --------------------
